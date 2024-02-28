@@ -6,24 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Introduction</title>
     <style>
-        #container>p {
+        /* #container>p {
             color: red;
+        } */
+
+        button {
+            border: none;
+            padding: 10px;
+        }
+
+        .primary {
+            background-color: blue;
+            color: white;
+        }
+
+        .danger {
+            background-color: red;
+            color: white;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .card {
+            display: flex;
+            justify-content: space-between;
+            background-color: blue;
+            color: white;
+            padding: 10px;
         }
     </style>
 </head>
 
 <body>
-    <div id="container" class="box">
+    <!-- <div id="container" class="box">
 
         <p id="para">I am <b id="name" class="username"> Ankur</b></p>
-
+        <p>Some para</p>
+        <b>Bold Element</b>
         <span>Some Text</span>
         <span>2nd span</span>
+        <p>2nd para</p>
+        <b>2nd Bold</b>
     </div>
 
-    <span id="span" class="username">Some <b id="other">other</b> element</span>
+    <span id="span" class="username">Some <b id="other">other</b> element</span> -->
+
+    <!-- <button id="btn">Click Me</button>
+        -->
+
+
+    <!-- <button>button 1</button>
+    <button>button 2</button> -->
+
+    <!-- <button onclick="let a=20,b=30; console.log(a*b);">Button 1</button> -->
+
+
+    <!-- <button onclick="callme()">Button</button> -->
+
+    <!-- <button onclick="callme(this)">Button</button> -->
+
+    <!-- <div id="container">
+        <span>Span text 1</span>
+    </div>
+
+    <button onclick="createBoldElement()">create new bold element</button> -->
+
+    <div id="container">
+
+    </div>
+
+    <button onclick="createFamily()">Create Family</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
